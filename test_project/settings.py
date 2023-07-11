@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-cv75s@b!32+bj$+3@8ta6qpd3yy7r80v5joj$)*s+j6##sck)i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'coral-app-9ze4a.ondigitalocean.app']
 
 
 # Application definition
