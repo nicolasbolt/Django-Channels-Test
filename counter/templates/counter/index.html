@@ -11,7 +11,9 @@
     <h3 id="app"></h3>
 
     <script>
-      const socket = new WebSocket("ws://localhost:8000/ws/counter/");
+      const socket = new WebSocket(
+        "ws://https://coral-app-9ze4a.ondigitalocean.app//ws/counter/"
+      );
 
       socket.onmessage = function (e) {
         const data = JSON.parse(e.data);
